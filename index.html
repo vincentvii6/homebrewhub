@@ -3,70 +3,73 @@
   <head>
     <title>Homebrew Hub</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
   </head>
 
 <!--Add a video/podcast section with how to brew tutorials, testing new equipment and techniques, links to homebrew podcasts. Include login and create account buttons that link to proper forms, create a template to implement a forum with which users can share recipes, discuss brewing techniques and new methods.-->
 
 
-
-
   <body>
-    <header class="main-header">
-      <h1>Homebrewing</h1>
-      <p>All your homebrewing needs in one convenient place</p>
+      <div class="wrap">
+        <header class="main-header">
+          <div class="container">
+            <h1 class="name">Homebrewing</h1>
+            <p>All your homebrewing needs in one convenient place</p>
+          </div>
+        </header>
 
-    </header>
+        <nav class="nav-bar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="historyofbeer.html">History of Brewing</a></li>
+            <li><a href="#">Beer Types</a></li>
+            <li><a href="#">Brewing Process</a></li>
+            <li><a href="#">Brewing Equipment</a></li>
+            <li><a href="#">Where to Buy</a></li>
+          </ul>
+        </nav>
 
-    <nav class="nav-bar">
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="historyofbeer.html">History of Brewing</a></li>
-        <li><a href="#">Beer Types</a></li>
-        <li><a href="#">Brewing Process</a></li>
-        <li><a href="#">Brewing Equipment</a></li>
-        <li><a href="#">Where to Buy</a></li>
-      </ul>
-    </nav>
+    <!--Images of different beers, brewing equipment, brewing ingredients, and winner of Beer of the Month-->
 
-<!--Images of different beers, brewing equipment, brewing ingredients, and winner of Beer of the Month-->
+        <div class="container">
+          <div>
+            <h2>Image Links to main pages</h2>
+            <p>
+            Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Ch' ngstell'bsna nglui ilyaa naflmg zhro Nyarlathotep, Chaugnar Faugnnyth Cthulhu sgn'wahl gof'nn ee kn'aog tharanak clloig nnn'ai hai wgah'n, 'fhalma mnahn'nyth Yoggoth uaaah Shub-Niggurath k'yarnak Shub-Niggurath uaaah fm'latgh ep y-R'lyeh.
+            </p>
+          </div>
 
-    <section>
-      <h2>Image Links to main pages</h2>
-      <p>
-      Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Ch' ngstell'bsna nglui ilyaa naflmg zhro Nyarlathotep, Chaugnar Faugnnyth Cthulhu sgn'wahl gof'nn ee kn'aog tharanak clloig nnn'ai hai wgah'n, 'fhalma mnahn'nyth Yoggoth uaaah Shub-Niggurath k'yarnak Shub-Niggurath uaaah fm'latgh ep y-R'lyeh.
-      </p>
-    </section>
+      <!--General tips for brewing, homebrew stories, up and coming craft brewers that started as homebrewers-->
 
-<!--General tips for brewing, homebrew stories, up and coming craft brewers that started as homebrewers-->
+          <div>
+            <h2>Newsletter</h2>
+            <p>
+            Hupadgh ilyaaagl mg hrii f'fhtagn ilyaa Hastur ahoth ah, h''ai bug ph'Yoggoth h'ooboshu nw mgagl li'heeor, kadishtu throdnyth athg chtenff shtunggli ep ooboshuagl.
+            </p>
+          </div>
 
-    <section>
-      <h2>Newsletter</h2>
-      <p>
-      Hupadgh ilyaaagl mg hrii f'fhtagn ilyaa Hastur ahoth ah, h''ai bug ph'Yoggoth h'ooboshu nw mgagl li'heeor, kadishtu throdnyth athg chtenff shtunggli ep ooboshuagl.
-      </p>
-    </section>
+      <!--Recipe of the Month and Top Recipes Connect to Forum-->
 
-<!--Recipe of the Month and Top Recipes Connect to Forum-->
+          <div class="priamary col">
+            <h2>Recipe of the Month</h2>
+            <p>
+            Uh'e nnnhupadgh vulgtm geb hafh'drn sgn'wahl R'lyeh gof'nn, Dagon ngshagg y-ee mg Yoggoth ooboshu s'uhn, cy'hah Hastur h'ilyaa goka ch' ron.
+            </p>
+          </div>
 
-    <section>
-      <h2>Recipe of the Month</h2>
-      <p>
-      Uh'e nnnhupadgh vulgtm geb hafh'drn sgn'wahl R'lyeh gof'nn, Dagon ngshagg y-ee mg Yoggoth ooboshu s'uhn, cy'hah Hastur h'ilyaa goka ch' ron.
-      </p>
-    </section>
-
-    <section>
-      <h2>Top Recipes</h2>
-      <p>
-      Li'hee Chaugnar Faugn ron ya fhtagn throd gnaiihagl hafh'drn, ilyaa Hastur hlirgh hupadgh uaaah.
-      F'ooboshu cs'uhn grah'n 'fhalmaagl sll'ha hlirgh r'luh orr'e ehye ngwgah'n hai 'bthnk ee fhtagn, y-hai ee naDagon llll shugg nw cfm'latgh uh'e orr'e fhtagnog phlegeth tharanak.
-      </p>
-    </section>
-
-    <footer id="main-footer">
-      <p>&copy;2018 Homebrew Hub</p>
-    </footer>
+          <div class="secondary col">
+            <h2>Top Recipes</h2>
+            <p>
+            Li'hee Chaugnar Faugn ron ya fhtagn throd gnaiihagl hafh'drn, ilyaa Hastur hlirgh hupadgh uaaah.
+            F'ooboshu cs'uhn grah'n 'fhalmaagl sll'ha hlirgh r'luh orr'e ehye ngwgah'n hai 'bthnk ee fhtagn, y-hai ee naDagon llll shugg nw cfm'latgh uh'e orr'e fhtagnog phlegeth tharanak.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <p>&copy;2018 Homebrew Hub</p>
+      </footer>
 
   </body>
 
