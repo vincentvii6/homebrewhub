@@ -21,6 +21,7 @@ body {
 /* Class Selectors */
 
 .container {
+  font-size: 1.25em;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -93,7 +94,7 @@ body {
   padding-right: 1em;
 }
 
-/* Horizontal Nav Bar */
+/* Horizonal Nav Bar */
 
 .nav-bar ul {
   list-style-type: none;
