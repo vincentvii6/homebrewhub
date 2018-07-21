@@ -4,6 +4,7 @@ section {
   text-align: center;
 }
 
+
 /* ID Selectors */
 
 #main-footer{
@@ -15,6 +16,11 @@ section {
 
 .main-header {
   text-align: center;
+  font-size: 120%;
+  color:  #b97446;
+  height: 500px;
+  background: #ffa949 url(../img/manybeers.jpg) no-repeat center /
+  cover;
 }
 
 /* Navigation Bar */
