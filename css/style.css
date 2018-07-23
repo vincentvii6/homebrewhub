@@ -4,9 +4,6 @@
 }
 
 
-div {
-  text-align: center;
-}
 
 body {
 
@@ -25,7 +22,7 @@ body {
 .mySlides {
   display: none;
   border: solid green 2px;
-  margin: auto;
+
 }
 
 .prev, .next {
@@ -43,8 +40,7 @@ body {
 }
 
 
-
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
@@ -115,6 +111,7 @@ body {
   font-size: 1.25em;
   padding-left: 1em;
   padding-right: 1em;
+  text-align: center;
 }
 
 .name{
