@@ -3,26 +3,21 @@
   box-sizing: border-box;
 }
 
-
-
 body {
-
+  margin: auto;
+  background-color: #cab577;
 }
 
-
-/* ID Selectors */
+/* Slideshow Styles */
 
 .slidshow-container {
   max-width: 1000px;
   position:relative;
-  margin: auto;
-  border: solid red 2px;
+  margin: 15px auto 0 auto;
 }
 
 .mySlides {
   display: none;
-  border: solid green 2px;
-
 }
 
 .prev, .next {
@@ -45,7 +40,6 @@ body {
     border-radius: 3px 0 0 3px;
   }
 
-  /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -105,7 +99,11 @@ body {
 }
 
 
-/* Class Selectors */
+/* General Styles */
+
+.wrap {
+  background-color: #cab577;
+}
 
 .container {
   font-size: 1.25em;
@@ -130,7 +128,7 @@ body {
 .main-footer{
   text-align: center;
   padding: 2em 0;
-  background: #333;
+  background: #4f3222;
   color: white;
 }
 
@@ -141,7 +139,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #4f3222;
 }
 
 .nav-bar li a {
@@ -152,11 +150,11 @@ body {
 }
 
 .nav-bar li a:hover {
-  background-color: #111;
+  background-color: #8b6f47;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #8b6f47;
 }
 
 
@@ -166,11 +164,18 @@ body {
 
 .wrap {
   min-height: calc(100vh - 114px);
+  background-color: #cab577;
+}
+
+
+.slidshow-container {
+    margin: 25px auto 0 auto;
 }
 
 .container{
   width: 70%;
   margin: 0 auto;
+
 }
 
 .col {
@@ -189,12 +194,12 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #4f3222;
 }
 
 .nav-bar li {
   float: left;
-  border-right: 1px solid #bbb;
+
 }
 
 .nav-bar li a {
@@ -206,11 +211,11 @@ body {
 }
 
 .nav-bar li a:hover {
-  background-color: #111;
+  background-color: #8b6f47;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #8b6f47;
 }
 
 }
