@@ -4,48 +4,72 @@
     <title>Homebrew Hub</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="javascript/myscripts.js"></script>
 
   </head>
 
-<!--Add a video/podcast section with how to brew tutorials, testing new equipment and techniques, links to homebrew podcasts. Include login and create account buttons that link to proper forms, create a template to implement a forum with which users can share recipes, discuss brewing techniques and new methods.-->
-
-
   <body>
+
       <div class="wrap">
-        <header class="main-header">
+        <header>  <!-- class="main-header"  -->
           <div class="container">
             <h1 class="name">Homebrewing</h1>
             <p>All your homebrewing needs in one convenient place</p>
           </div>
+
+          <nav class="nav-bar">
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="historyofbeer.html">History of Brewing</a></li>
+              <li><a href="#">Beer Types</a></li>
+              <li><a href="#">Brewing Process</a></li>
+              <li><a href="#">Brewing Equipment</a></li>
+              <li><a href="#">Where to Buy</a></li>
+            </ul>
+          </nav>
+
         </header>
 
-        <nav class="nav-bar">
-          <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="historyofbeer.html">History of Brewing</a></li>
-            <li><a href="#">Beer Types</a></li>
-            <li><a href="#">Brewing Process</a></li>
-            <li><a href="#">Brewing Equipment</a></li>
-            <li><a href="#">Where to Buy</a></li>
-          </ul>
-        </nav>
+        <!-- Slideshow Container -->
+        <div class="slidshow-container">
 
-    <!--Images of different beers, brewing equipment, brewing ingredients, and winner of Beer of the Month-->
+          <!-- Slideshow Images -->
+          <div class="mySlides fade" style="display: block;">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/manybeers.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/tavern.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/beerimage.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
 
         <div class="container">
           <div>
-            <h2>Image Links to main pages</h2>
-            <p>
-            Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Ch' ngstell'bsna nglui ilyaa naflmg zhro Nyarlathotep, Chaugnar Faugnnyth Cthulhu sgn'wahl gof'nn ee kn'aog tharanak clloig nnn'ai hai wgah'n, 'fhalma mnahn'nyth Yoggoth uaaah Shub-Niggurath k'yarnak Shub-Niggurath uaaah fm'latgh ep y-R'lyeh.
-            </p>
-          </div>
-
-      <!--General tips for brewing, homebrew stories, up and coming craft brewers that started as homebrewers-->
-
-          <div>
             <h2>Newsletter</h2>
             <p>
-            Hupadgh ilyaaagl mg hrii f'fhtagn ilyaa Hastur ahoth ah, h''ai bug ph'Yoggoth h'ooboshu nw mgagl li'heeor, kadishtu throdnyth athg chtenff shtunggli ep ooboshuagl.
+            Hupadgh ilyaaagl mg hrii f'fhtagn ilyaa Hastur ahoth ah, h''ai bug ph'Yoggoth h'ooboshu nw mgagl li'heeor, kadishtu throdnyth athg chtenff shtunggli ep ooboshuagl.Li'hee Chaugnar Faugn ron ya fhtagn throd gnaiihagl hafh'drn, ilyaa Hastur hlirgh hupadgh uaaah. F'ooboshu cs'uhn grah'n 'fhalmaagl sll'ha hlirgh r'luh orr'e ehye ngwgah'n hai 'bthnk ee fhtagn, y-hai ee naDagon llll shugg nw cfm'latgh uh'e orr'e fhtagnog phlegeth tharanak.
             </p>
           </div>
 
@@ -67,10 +91,10 @@
           </div>
         </div>
       </div>
+
       <footer class="main-footer">
         <p>&copy;2018 Homebrew Hub</p>
       </footer>
 
   </body>
-
 </html>
